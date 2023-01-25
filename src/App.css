@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Main {
+  background-color: #ffffff;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: baseline;
+  flex-basis: 25%;
+  margin-left: 10px;
+}
+
+label {
+  flex-basis: 160px;
+  align-content: flex-start;
+}
+
+input {
+  flex-basis: 8%;
+  align-content: flex-start;
+  margin-right: 5px;
 }
